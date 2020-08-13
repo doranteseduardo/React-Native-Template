@@ -32,9 +32,11 @@ After cloning this repository you have to do nothing but run:
 ## How to rename the app and package name
 
 To change the package name you must rename the bold folder in the following path:
+
 */android/app/src/main/java/com/**startup*** 
 
 e.g
+
 */android/app/src/main/java/com/myapp*
 
 */android/app/src/main/java/com/mycompany/myapp* 
@@ -44,7 +46,9 @@ Open /android/app/src/main/res/values/**strings.xml** and replace the *app_name*
 Finally, you can safely replace all **com.startup** values (11 matches) to the one you choose when you renamed the paths.
 
 e.g
+
 *com.myapp*
+
 *com.mycompany.myapp*
 
 Finally, execute the following command:
