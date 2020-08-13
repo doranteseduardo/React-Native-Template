@@ -36,6 +36,7 @@ To change the package name you must rename the bold folder in the following path
 
 e.g
 */android/app/src/main/java/com/myapp*
+
 */android/app/src/main/java/com/mycompany/myapp* 
 
 Open /android/app/src/main/res/values/**strings.xml** and replace the *app_name* value with your desided app name.
