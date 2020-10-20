@@ -29,31 +29,5 @@ After cloning this repository you have to do nothing but run:
 
     npx react-native run-android
 
-## How to rename the app and package name
-
-To change the package name you must rename the bold folder in the following path:
-
-*/android/app/src/main/java/com/**startup*** 
-
-e.g
-
-*/android/app/src/main/java/com/myapp*
-
-*/android/app/src/main/java/com/mycompany/myapp* 
-
-Open /android/app/src/main/res/values/**strings.xml** and replace the *app_name* value with your desided app name.
-
-Finally, you can safely replace all **com.startup** values (11 matches) to the one you choose when you renamed the paths.
-
-e.g
-
-*com.myapp*
-
-*com.mycompany.myapp*
-
-Finally, execute the following command:
-
-    cd android; ./gradlew clean; cd ..; npx react-native run-android
-
 ## How to build a release package
 You can follow [this well-explained guide](https://www.instamobile.io/android-development/generate-react-native-release-build-android/).
